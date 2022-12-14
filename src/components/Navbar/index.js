@@ -29,7 +29,7 @@ function NavBar() {
           </li>
         </ul>
         <p>Rotas</p>
-        <p>Users</p>
+        <p>User</p>
         <ul>
           <li>
             <Link to="/rotas/usuario/signup">SignUp</Link>
@@ -104,6 +104,19 @@ function NavBar() {
         </ul>
 
         <p>Chatbot</p>
+        <ul>
+          <li>
+            <Link to="/rotas/resposta/criar">Criar</Link>
+          </li>
+          <li>
+            <Link to="/rotas/resposta/editar">Editar</Link>
+          </li>
+          <li>
+            <Link to="/rotas/resposta/buscar">popular</Link>
+          </li>
+        </ul>
+
+        <p>Activity</p>
         <ul>
           <li>
             <Link to="/rotas/resposta/criar">Criar</Link>

@@ -1,3 +1,5 @@
+import imagemSchemaReport from "../../../assets/schemareport.png";
+
 function SchemaReport() {
   return (
     <>
@@ -16,10 +18,7 @@ function SchemaReport() {
         ></code>
       </pre>
       <div>
-        <img
-          src="/src/assets/schemareport.png"
-          alt="imagem do schema do Report"
-        />
+        <img src={imagemSchemaReport} alt="imagem do schema do Report" />
       </div>
     </>
   );

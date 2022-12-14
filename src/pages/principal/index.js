@@ -3,12 +3,12 @@ function Principal() {
     <>
       <p>
         Pagina para a consulta da documentação das rotas, modelos, schemas e
-        outras informacoes sobre o App GTR "Gestao do TRabalho Remoto"
+        outras informacoes sobre o App GTR "Gestão do Trabalho Remoto"
         elaborados para o projeto 3.
       </p>
       <p>Por favor, navegue pelo menu lateral para encontrar o que desejar!</p>
 
-      <div># GTR - Introducao</div>
+      <div># GTR - Introdução</div>
       <div>
         <p>
           # A cada dia o trabalho remoto se torna mais comum, graças aos avanços

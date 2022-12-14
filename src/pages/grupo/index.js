@@ -1,7 +1,7 @@
 function Grupo() {
   return (
     <>
-      <p>Grupo que elaborou o App GTR "Gestao do Trabalho Remoto"</p>
+      <p>Grupo que elaborou o App GTR "Gestao do Trabalho Remoto</p>
       <p>
         {" "}
         #<a href="https://github.com/nosderson">Anderson Moro</a>
@@ -21,6 +21,11 @@ function Grupo() {
       <p>
         {" "}
         #<a href="https://github.com/MichelaCamboim">Michela Camboim</a>
+      </p>
+      <p>
+        <div>
+          (*) clique no nome para ver a bio.
+        </div>
       </p>
     </>
   );
