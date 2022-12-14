@@ -13,19 +13,19 @@ function NavBar() {
         <p>Schemas</p>
         <ul>
           <li>
-            <Link to="/schema/usuario">User</Link>
+            <Link to="/schema/user">User</Link>
           </li>
           <li>
-            <Link to="/schema/comentario">Task</Link>
+            <Link to="/schema/task">Task</Link>
           </li>
           <li>
-            <Link to="/schema/receita">Report</Link>
+            <Link to="/schema/report">Report</Link>
           </li>
           <li>
-            <Link to="/schema/resposta">Log</Link>
+            <Link to="/schema/log">Log</Link>
           </li>
           <li>
-            <Link to="/schema/resposta">Chatbot</Link>
+            <Link to="/schema/chatbot">Chatbot</Link>
           </li>
         </ul>
         <p>Rotas</p>
