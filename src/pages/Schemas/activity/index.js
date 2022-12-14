@@ -1,4 +1,6 @@
-function SchemaChatbot() {
+import imagemSchemaActivity from "../../../assets/schemaactivity.jpg";
+
+function schemaActivity() {
   return (
     <>
       <h1>Schema Chatbot</h1>
@@ -16,13 +18,10 @@ function SchemaChatbot() {
         ></code>
       </pre>
       <div>
-        <img
-          src="/src/assets/schemachatbot.png"
-          alt="imagem do schema do Chatbot"
-        />
+      <img src={imagemSchemaActivity} alt="imagem do schema do Activity" />
       </div>
     </>
   );
 }
 
-export default SchemaChatbot;
+export default schemaActivity;

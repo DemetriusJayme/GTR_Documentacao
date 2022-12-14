@@ -1,3 +1,5 @@
+import imagemSchemaTask from "../../../assets/schematask.jpg";
+
 function SchemaComentario() {
   return (
     <>
@@ -16,10 +18,7 @@ function SchemaComentario() {
         ></code>
       </pre>
       <div>
-        <img
-          src="/src/assets/schematask.png"
-          alt="imagem do schema do Task"
-        />
+        <img src={imagemSchemaTask} alt="imagem do schema do Task" />
       </div>
     </>
   );

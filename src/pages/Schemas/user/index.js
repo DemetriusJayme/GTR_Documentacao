@@ -1,3 +1,5 @@
+import imagemSchemaUser from "../../../assets/schemauser.jpg";
+
 function SchemaUser() {
   return (
     <>
@@ -16,7 +18,7 @@ function SchemaUser() {
         ></code>
       </pre>
       <div>
-        <img src="/src/assets/schemauser.png" alt="imagem do schema do User" />
+      <img src={imagemSchemaUser} alt="imagem do schema do User" />
       </div>
     </>
   );

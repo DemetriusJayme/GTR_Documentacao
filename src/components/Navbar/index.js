@@ -25,7 +25,7 @@ function NavBar() {
             <Link to="/schema/log">Log</Link>
           </li>
           <li>
-            <Link to="/schema/chatbot">Chatbot</Link>
+            <Link to="/schema/activity">Activity</Link>
           </li>
         </ul>
         <p>Rotas</p>
@@ -38,94 +38,65 @@ function NavBar() {
             <Link to="/rotas/usuario/login">LogIn</Link>
           </li>
           <li>
-            <Link to="/rotas/usuario/editar">Editar</Link>
+            <Link to="/rotas/usuario/create">New</Link>
           </li>
           <li>
-            <Link to="/rotas/usuario/id">Buscar por ID</Link>
+            <Link to="/rotas/usuario/edit">Edit</Link>
           </li>
           <li>
-            <Link to="/rotas/usuario/todos">Buscar por todos os usuarios</Link>
+            <Link to="/rotas/usuario/id">Search by ID</Link>
           </li>
           <li>
-            <Link to="/rotas/usuario/logado">Buscar pelo usuario logado</Link>
+            <Link to="/rotas/usuario/all">All</Link>
+          </li>
+          <li>
+            <Link to="/rotas/usuario/logado">Search by logged ID</Link>
           </li>
         </ul>
 
         <p>Task</p>
         <ul>
           <li>
-            <Link to="/rotas/receita/criar">Criar</Link>
+            <Link to="/rotas/task/new">New</Link>
           </li>
           <li>
-            <Link to="/rotas/receita/todas">Busca de todas as receitas</Link>
+            <Link to="/rotas/task/workedhours">Worked Hours</Link>
           </li>
           <li>
-            <Link to="/rotas/receita/buscar/id">Busca de receita por ID</Link>
+            <Link to="/rotas/task/outoftime">OutOfTime</Link>
           </li>
           <li>
-            <Link to="/rotas/receita/editar">Editar</Link>
-          </li>
-          <li>
-            <Link to="/rotas/receita/favoritos/adicionar">
-              Adicionar aos Favoritos
-            </Link>
-          </li>
-          <li>
-            <Link to="/rotas/receita/favoritos/excluir">
-              Deletar dos Favoritos
-            </Link>
+            <Link to="/rotas/task/status">Status</Link>
           </li>
         </ul>
 
         <p>Report</p>
         <ul>
           <li>
-            <Link to="/rotas/comentario/criar">Criar</Link>
+            <Link to="/rotas/comentario/criar">New</Link>
           </li>
           <li>
-            <Link to="/rotas/comentario/editar">Editar</Link>
+            <Link to="/rotas/comentario/editar">All</Link>
           </li>
           <li>
-            <Link to="/rotas/comentario/buscar">popular</Link>
+            <Link to="/rotas/comentario/buscar">Get one by ID</Link>
+          </li>
+          <li>
+            <Link to="/rotas/comentario/buscar">Edit one by ID</Link>
           </li>
         </ul>
 
         <p>Log</p>
         <ul>
           <li>
-            <Link to="/rotas/resposta/criar">Criar</Link>
-          </li>
-          <li>
-            <Link to="/rotas/resposta/editar">Editar</Link>
-          </li>
-          <li>
-            <Link to="/rotas/resposta/buscar">popular</Link>
-          </li>
-        </ul>
-
-        <p>Chatbot</p>
-        <ul>
-          <li>
-            <Link to="/rotas/resposta/criar">Criar</Link>
-          </li>
-          <li>
-            <Link to="/rotas/resposta/editar">Editar</Link>
-          </li>
-          <li>
-            <Link to="/rotas/resposta/buscar">popular</Link>
+            <Link to="/rotas/resposta/criar">My logs</Link>
           </li>
         </ul>
 
         <p>Activity</p>
         <ul>
           <li>
-            <Link to="/rotas/resposta/criar">Criar</Link>
-          </li>
-          <li>
-            <Link to="/rotas/resposta/editar">Editar</Link>
-          </li>
-          <li>
-            <Link to="/rotas/resposta/buscar">popular</Link>
+            <Link to="/rotas/resposta/criar">?</Link>
           </li>
         </ul>
 

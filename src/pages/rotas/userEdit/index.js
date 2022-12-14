@@ -1,9 +1,9 @@
-function UsuarioEditar() {
+function UsuarioEdit() {
     return ( 
         <>
         <h1>Rota para a edição de usuario</h1>
         <p><b>Verbo:</b>PUT</p>
-        <p><b>End Point:</b> /usuario/editar<br></br>
+        <p><b>End Point:</b> /user/edit<br></br>
             Retorna um Json com os dados do usuario recem editado:<br></br></p>
 
             <pre>
@@ -16,7 +16,7 @@ function UsuarioEditar() {
   }}>
 
 {`{
-	"nome" :"Rodrigo Vicente"
+INSERIR
 }`}
 
   </code>
@@ -27,19 +27,9 @@ function UsuarioEditar() {
   width:"900px"
   }}>
 
-
 {`{
-	"_id": "6339020456558b173a46404a",
-	"nome": "Rodrigo Vicente",
-	"email": "dias@gmail.com",
-	"receitas": [],
-	"comentarios": [],
-	"resposta": [],
-	"emailConfirm": false,
-	"profilePic": "https://toppng.com/uploads/preview/...",
-	"__v": 0
-}
-`}
+INSERIR
+}`}
 
   </code>
             </pre>
@@ -48,4 +38,4 @@ function UsuarioEditar() {
      );
 }
 
-export default UsuarioEditar;
+export default UsuarioEdit;

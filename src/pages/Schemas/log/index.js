@@ -1,3 +1,5 @@
+import imagemSchemaLog from "../../../assets/schemaLog.jpg";
+
 function SchemaLog() {
   return (
     <>
@@ -16,14 +18,10 @@ function SchemaLog() {
         ></code>
       </pre>
       <div>
-        <img
-          src="/src/assets/schemalog.png"
-          alt="imagem do schema do Log"
-        />
+        <img src={imagemSchemaLog} alt="imagem do schema do Log" />
       </div>
     </>
   );
 }
-
 
 export default SchemaLog;

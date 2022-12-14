@@ -5,39 +5,32 @@ import SchemaUser from "../Schemas/user";
 import SchemaTask from "../Schemas/task";
 import SchemaReport from "../Schemas/report";
 import SchemaLog from "../Schemas/log";
-import SchemaChatbot from "../Schemas/chatbot";
+import SchemaActivity from "../Schemas/activity";
 
 import NavBar from "../../components/Navbar";
 
-import SignUp from "../rotas/siginup";
+import SignUp from "../rotas/siginUp";
 import LogIn from "../rotas/login";
 
-import UsuarioEditar from "../rotas/UsuarioEditar";
-import UsuarioId from "../rotas/usuarioId";
-import Usuariotodos from "../rotas/Usuariotodos";
-import UsuarioLogado from "../rotas/usuariologado";
+import UsuarioEdit from "../rotas/userEdit";
+import UsuarioId from "../rotas/userId";
+import Usuariotodos from "../rotas/userAll";
+import UsuarioLogado from "../rotas/userLogged";
+import UserCreate from "../rotas/userCreate";
 
-import ReceitasCriar from "../rotas/receitaCriar";
-import ReceitasTodas from "../rotas/receitasTodas";
-import ReceitasId from "../rotas/receitaId";
-import ReceitaEditar from "../rotas/ReceitaEditar";
-import ReceitasAddFav from "../rotas/ReceitaAddfav";
-import ReceitaDelFav from "../rotas/ReceitasDellFav";
+import TaskNew from "../rotas/taskNew";
+import TaskWorkedHours from "../rotas/taskWorkedHours";
+import TaskOutOfTime from "../rotas/taskOutOfTime";
+import TaskStatus from "../rotas/taskStatus";
 
-import ComentarioCriar from "../rotas/comentarioCriar";
-import ComentarioEditar from "../rotas/comentarioEditar";
-
-import RespostaCriar from "../rotas/rescriar";
-import RespostaEditar from "../rotas/resEditar";
-import RespostaPopular from "../rotas/Respopular";
-
-import Deletes from "../rotas/deletes";
-
-import Upload from "../rotas/upload";
+import ReportNew from "../rotas/reportNew";
+//import ReportWorkedHours from "../rotas/reportWorkedHours";
+//import ReportOutOfTime from "../rotas/reportOutOfTime";
+//import ReportAll from "../rotas/reportAll";
 
 import { Routes, Route, Link } from "react-router-dom";
 
-import ComentarioBuscar from "../rotas/comentatiobusca";
+//import ComentarioBuscar from "../rotas/comentatiobusca";
 
 function HomePage() {
   return (
@@ -62,20 +55,43 @@ function HomePage() {
             <Route path="/schema/task" element={<SchemaTask />} />
             <Route path="/schema/report" element={<SchemaReport />} />
             <Route path="/schema/log" element={<SchemaLog />} />
-            <Route path="/schema/chatbot" element={<SchemaChatbot />} />
+            <Route path="/schema/activity" element={<SchemaActivity />} />
 
             <Route path="/rotas/usuario/signup" element={<SignUp />} />
             <Route path="/rotas/usuario/login" element={<LogIn />} />
-            <Route path="/rotas/usuario/editar" element={<UsuarioEditar />} />
+            <Route path="/rotas/usuario/create" element={<UserCreate />} />
+            <Route path="/rotas/usuario/edit" element={<UsuarioEdit />} />
             <Route path="/rotas/usuario/id" element={<UsuarioId />} />
-            <Route path="/rotas/usuario/todos" element={<Usuariotodos />} />
+            <Route path="/rotas/usuario/all" element={<Usuariotodos />} />
             <Route path="/rotas/usuario/logado" element={<UsuarioLogado />} />
 
-            <Route path="/rotas/receita/criar" element={<ReceitasCriar />} />
+            <Route path="/rotas/task/new" element={<TaskNew />} />
+            <Route
+              path="/rotas/task/workedhours"
+              element={<TaskWorkedHours />}
+            />
+            <Route path="/rotas/task/outoftime" element={<TaskOutOfTime />} />
+            <Route path="/rotas/task/status" element={<TaskStatus />} />
+
+            <Route path="/rotas/report/new" element={<ReportNew />} />
+            {/*             <Route
+              path="/rotas/report/workedhours"
+              element={<ReportWorkedHours />}
+            /> */}
+            {/*             <Route
+              path="/rotas/report/outoftime"
+              element={<ReportOutOfTime />}
+            />
+            <Route path="/rotas/report/all" element={<ReportAll />} /> */}
+
+            {/*             <Route path="/rotas/report/new" element={<ReportNew />} />
+            <Route path="/rotas/report/new" element={<ReportNew />} /> */}
+
+            {/*             <Route path="/rotas/receita/criar" element={<ReceitasCriar />} />
             <Route path="/rotas/receita/todas" element={<ReceitasTodas />} />
             <Route path="/rotas/receita/buscar/id" element={<ReceitasId />} />
-            <Route path="/rotas/receita/editar" element={<ReceitaEditar />} />
-            <Route
+            <Route path="/rotas/receita/editar" element={<ReceitaEditar />} /> */}
+            {/*           <Route
               path="/rotas/receita/favoritos/adicionar"
               element={<ReceitasAddFav />}
             />
@@ -102,7 +118,7 @@ function HomePage() {
               element={<RespostaPopular />}
             />
             <Route path="/rotas/delete" element={<Deletes />} />
-            <Route path="/rotas/upload" element={<Upload />} />
+            <Route path="/rotas/upload" element={<Upload />} /> */}
           </Routes>
         </div>
       </div>
