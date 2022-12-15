@@ -14,8 +14,8 @@ import SchemaActivity from "../Schemas/activity";
 import NavBar from "../../components/Navbar";
 
 //Login e signUp
-import SignUp from "../rotas/signUp";
 import LogIn from "../rotas/login";
+import SignUp from "../rotas/signUp";
 
 //User
 import UsuarioEdit from "../rotas/userEdit";
