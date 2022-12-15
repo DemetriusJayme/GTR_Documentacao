@@ -1,36 +1,42 @@
+//Topicos principais
 import Principal from "../principal";
 import Grupo from "../grupo/index";
+import Mer from "../mer/index";
 
+//Schema
 import SchemaUser from "../Schemas/user";
 import SchemaTask from "../Schemas/task";
 import SchemaReport from "../Schemas/report";
 import SchemaLog from "../Schemas/log";
 import SchemaActivity from "../Schemas/activity";
 
+//Navbar
 import NavBar from "../../components/Navbar";
 
+//Login e signUp
 import SignUp from "../rotas/siginUp";
 import LogIn from "../rotas/login";
 
+//User
 import UsuarioEdit from "../rotas/userEdit";
 import UsuarioId from "../rotas/userId";
 import Usuariotodos from "../rotas/userAll";
 import UsuarioLogado from "../rotas/userLogged";
 import UserCreate from "../rotas/userCreate";
 
+//Task
 import TaskNew from "../rotas/taskNew";
 import TaskWorkedHours from "../rotas/taskWorkedHours";
 import TaskOutOfTime from "../rotas/taskOutOfTime";
 import TaskStatus from "../rotas/taskStatus";
 
+//Report
 import ReportNew from "../rotas/reportNew";
-//import ReportWorkedHours from "../rotas/reportWorkedHours";
-//import ReportOutOfTime from "../rotas/reportOutOfTime";
-//import ReportAll from "../rotas/reportAll";
+import ReportAll from "../rotas/reportAll";
+import ReportGetOne from "../rotas/reportGetOne";
+import ReportEditOne from "../rotas/reportEditOne";
 
 import { Routes, Route, Link } from "react-router-dom";
-
-//import ComentarioBuscar from "../rotas/comentatiobusca";
 
 function HomePage() {
   return (
@@ -49,7 +55,10 @@ function HomePage() {
         <div>
           <Routes>
             <Route path="/" element={<Principal />} />
+
             <Route path="/grupo" element={<Grupo />} />
+
+            <Route path="/mer" element={<Mer />} />
 
             <Route path="/schema/user" element={<SchemaUser />} />
             <Route path="/schema/task" element={<SchemaTask />} />
@@ -74,6 +83,9 @@ function HomePage() {
             <Route path="/rotas/task/status" element={<TaskStatus />} />
 
             <Route path="/rotas/report/new" element={<ReportNew />} />
+            <Route path="/rotas/report/all" element={<ReportAll />} />
+            <Route path="/rotas/report/getone" element={<ReportGetOne />} />
+
             {/*             <Route
               path="/rotas/report/workedhours"
               element={<ReportWorkedHours />}

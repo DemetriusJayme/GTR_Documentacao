@@ -10,6 +10,9 @@ function NavBar() {
         <Link to="/grupo">
           <p>Grupo</p>
         </Link>
+        <Link to="/mer">
+          <p>MER</p>
+        </Link>
         <p>Schemas</p>
         <ul>
           <li>
@@ -73,16 +76,16 @@ function NavBar() {
         <p>Report</p>
         <ul>
           <li>
-            <Link to="/rotas/comentario/criar">New</Link>
+            <Link to="/rotas/report/new">New</Link>
           </li>
           <li>
-            <Link to="/rotas/comentario/editar">All</Link>
+            <Link to="/rotas/report/all">All</Link>
           </li>
           <li>
-            <Link to="/rotas/comentario/buscar">Get one by ID</Link>
+            <Link to="/rotas/report/getone">Get one by ID</Link>
           </li>
           <li>
-            <Link to="/rotas/comentario/buscar">Edit one by ID</Link>
+            <Link to="/rotas/report/editone">Edit one by ID</Link>
           </li>
         </ul>
 
