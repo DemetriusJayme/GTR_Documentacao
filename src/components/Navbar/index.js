@@ -92,7 +92,7 @@ function NavBar() {
         <p>Log</p>
         <ul>
           <li>
-            <Link to="/rotas/resposta/criar">My logs</Link>
+            <Link to="/rotas/log/mylogs">My logs</Link>
           </li>
         </ul>
 

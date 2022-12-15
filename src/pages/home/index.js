@@ -36,6 +36,9 @@ import ReportAll from "../rotas/reportAll";
 import ReportGetOne from "../rotas/reportGetOne";
 import ReportEditOne from "../rotas/reportEditOne";
 
+//Logs
+import MyLogs from "../rotas/mylogs";
+
 import { Routes, Route, Link } from "react-router-dom";
 
 function HomePage() {
@@ -85,52 +88,9 @@ function HomePage() {
             <Route path="/rotas/report/new" element={<ReportNew />} />
             <Route path="/rotas/report/all" element={<ReportAll />} />
             <Route path="/rotas/report/getone" element={<ReportGetOne />} />
+            <Route path="/rotas/report/editone" element={<ReportEditOne />} />
 
-            {/*             <Route
-              path="/rotas/report/workedhours"
-              element={<ReportWorkedHours />}
-            /> */}
-            {/*             <Route
-              path="/rotas/report/outoftime"
-              element={<ReportOutOfTime />}
-            />
-            <Route path="/rotas/report/all" element={<ReportAll />} /> */}
-
-            {/*             <Route path="/rotas/report/new" element={<ReportNew />} />
-            <Route path="/rotas/report/new" element={<ReportNew />} /> */}
-
-            {/*             <Route path="/rotas/receita/criar" element={<ReceitasCriar />} />
-            <Route path="/rotas/receita/todas" element={<ReceitasTodas />} />
-            <Route path="/rotas/receita/buscar/id" element={<ReceitasId />} />
-            <Route path="/rotas/receita/editar" element={<ReceitaEditar />} /> */}
-            {/*           <Route
-              path="/rotas/receita/favoritos/adicionar"
-              element={<ReceitasAddFav />}
-            />
-            <Route
-              path="/rotas/receita/favoritos/excluir"
-              element={<ReceitaDelFav />}
-            />
-            <Route
-              path="/rotas/comentario/criar"
-              element={<ComentarioCriar />}
-            />
-            <Route
-              path="/rotas/comentario/editar"
-              element={<ComentarioEditar />}
-            />
-            <Route
-              path="/rotas/comentario/buscar"
-              element={<ComentarioBuscar />}
-            />
-            <Route path="/rotas/resposta/criar" element={<RespostaCriar />} />
-            <Route path="/rotas/resposta/editar" element={<RespostaEditar />} />
-            <Route
-              path="/rotas/resposta/buscar"
-              element={<RespostaPopular />}
-            />
-            <Route path="/rotas/delete" element={<Deletes />} />
-            <Route path="/rotas/upload" element={<Upload />} /> */}
+            <Route path="/rotas/report/mylogs" element={<MyLogs />} />
           </Routes>
         </div>
       </div>
