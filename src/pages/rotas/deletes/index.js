@@ -1,57 +1,85 @@
 function Deletes() {
-    return ( 
-<>
- <pre>
-                <p>Deletar usuario:</p>
-            <code style={{display:"flex", flexDirection:"column" ,textAlign:"left", 
-  backgroundColor:" #f1f1f1",
-  padding: "2px",
-  width:"900px"
-  }}>
-<span><b>Verbo:</b>DELETE</span>
-<span><b>EndPoint:</b>/usuario/deletar/</span>
+  return (
+    <>
+      <pre>
+        <p>Deletar User:</p>
+        <code
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            textAlign: "left",
+            backgroundColor: " #f1f1f1",
+            padding: "2px",
+            width: "900px",
+          }}
+        >
+          <span>
+            <b>Verbo:</b>DELETE
+          </span>
+          <span>
+            <b>EndPoint:</b>/user/delete/
+          </span>
+        </code>
 
-  </code>
- 
+        <p>Deletar Task:</p>
+        <code
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            textAlign: "left",
+            backgroundColor: " #f1f1f1",
+            padding: "2px",
+            width: "900px",
+          }}
+        >
+          <span>
+            <b>Verbo:</b>DELETE
+          </span>
+          <span>
+            <b>EndPoint:</b>/task/delete/{`{id}`}
+          </span>
+        </code>
 
-<p>Deletar Receita:</p>
-<code style={{display:"flex", flexDirection:"column" ,textAlign:"left", 
-backgroundColor:" #f1f1f1",
-padding: "2px",
-width:"900px"
-}}>
-<span><b>Verbo:</b>DELETE</span>
-<span><b>EndPoint:</b>/receita/deletar/{`{id}`}</span>
+        <p>Deletar Report:</p>
+        <code
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            textAlign: "left",
+            backgroundColor: " #f1f1f1",
+            padding: "2px",
+            width: "900px",
+          }}
+        >
+          <span>
+            <b>Verbo:</b>DELETE
+          </span>
+          <span>
+            <b>EndPoint:</b>/report/delete/{`{id}`}
+          </span>
+        </code>
 
-</code>
-
-
-<p>Deletar Comentario:</p>
-<code style={{display:"flex", flexDirection:"column" ,textAlign:"left", 
-backgroundColor:" #f1f1f1",
-padding: "2px",
-width:"900px"
-}}>
-<span><b>Verbo:</b>DELETE</span>
-<span><b>EndPoint:</b>/comentario/deletar/{`{id}`}</span>
-
-</code>
-
-<p>Deletar Resposta:</p>
-<code style={{display:"flex", flexDirection:"column" ,textAlign:"left", 
-backgroundColor:" #f1f1f1",
-padding: "2px",
-width:"900px"
-}}>
-<span><b>Verbo:</b>DELETE</span>
-<span><b>EndPoint:</b>/resposta/deletar/{`{id}`}</span>
-
-</code>
-
-
-</pre>
-</>
-     );
+        <p>Deletar Activity:</p>
+        <code
+          style={{
+            display: "flex",
+            flexDirection: "column",
+            textAlign: "left",
+            backgroundColor: " #f1f1f1",
+            padding: "2px",
+            width: "900px",
+          }}
+        >
+          <span>
+            <b>Verbo:</b>DELETE
+          </span>
+          <span>
+            <b>EndPoint:</b>/activity/delete/{`{id}`}
+          </span>
+        </code>
+      </pre>
+    </>
+  );
 }
 
 export default Deletes;

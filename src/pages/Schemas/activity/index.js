@@ -1,4 +1,4 @@
-import imagemSchemaActivity from "../../../assets/schemaactivity.jpg";
+import imagemSchemaActivity from "../../../assets/schemaactivity.png";
 
 function schemaActivity() {
   return (

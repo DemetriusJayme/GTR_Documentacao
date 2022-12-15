@@ -99,16 +99,19 @@ function NavBar() {
         <p>Activity</p>
         <ul>
           <li>
-            <Link to="/rotas/resposta/criar">?</Link>
+            <Link to="/rotas/activity/new">New</Link>
           </li>
         </ul>
 
-        <Link to="/rotas/delete">
+        <Link to="/rotas/deletes">
           <p>Rotas de Delete</p>
         </Link>
         <Link to="/rotas/upload">
           <p>Rota de UpLoad de imagens</p>
         </Link>
+        <p></p>
+        <p></p>
+        <p></p>
       </div>
     </>
   );

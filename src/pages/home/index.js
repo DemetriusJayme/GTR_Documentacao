@@ -39,6 +39,15 @@ import ReportEditOne from "../rotas/reportEditOne";
 //Logs
 import MyLogs from "../rotas/mylogs";
 
+//Activity
+import ActivityNew from "../rotas/activitynew";
+
+//Delete
+import Deletes from "../rotas/deletes";
+
+//Upload
+import Upload from "../rotas/upload";
+
 import { Routes, Route, Link } from "react-router-dom";
 
 function HomePage() {
@@ -90,7 +99,13 @@ function HomePage() {
             <Route path="/rotas/report/getone" element={<ReportGetOne />} />
             <Route path="/rotas/report/editone" element={<ReportEditOne />} />
 
-            <Route path="/rotas/report/mylogs" element={<MyLogs />} />
+            <Route path="/rotas/mylogs" element={<MyLogs />} />
+
+            <Route path="/rotas/activity/new" element={<ActivityNew />} />
+
+            <Route path="/rotas/deletes" element={<Deletes />} />
+
+            <Route path="/rotas/upload" element={<Upload />} />
           </Routes>
         </div>
       </div>

@@ -22,8 +22,8 @@ function MyLogs() {
           }}
         >
           {`{
-    INSERIR
-    }`}
+INSERIR
+}`}
         </code>
       </pre>
     </>
